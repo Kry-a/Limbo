@@ -1,6 +1,13 @@
 # Prerequisites
 *.d
 
+# Build folder
+cmake-build-debug
+cmake-build-release
+
+# CLion project folder
+.idea
+
 # Compiled Object files
 *.slo
 *.lo
