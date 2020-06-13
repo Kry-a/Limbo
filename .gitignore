@@ -4,6 +4,7 @@
 # Build folder
 cmake-build-debug
 cmake-build-release
+build
 
 # CLion project folder
 .idea

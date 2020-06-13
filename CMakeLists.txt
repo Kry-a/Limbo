@@ -10,6 +10,6 @@ if(SERVER_LIST)
     add_definitions(-DSERVER_LIST)
 endif(SERVER_LIST)
 
-add_executable(Limbo main.cpp Server.cpp Server.hpp Session.cpp Session.hpp)
+add_executable(Limbo src/main.cpp src/Server.cpp src/Server.hpp src/Session.cpp src/Session.hpp src/utils.hpp src/Buffer.cpp src/Buffer.hpp)
 target_include_directories(Limbo PRIVATE ${Boost_INCLUDE_DIRS})
 target_link_libraries(Limbo ${Boost_LIBRARIES} Threads::Threads)
